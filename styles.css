@@ -1,0 +1,393 @@
+*{
+    font-family: sans-serif;
+}
+.main{
+    background-color:#3a5dbd;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    flex-direction: row;
+    align-items: center;
+    
+}
+.icon{
+    margin-left: 100px;
+    margin-right: 20px;
+    align-items: center;
+}
+.icons{
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.para{
+  text-align: center;
+    color: white;
+    font-size: 15px;
+    padding-top: 13px;
+    margin-left: 50px;
+    margin-right: 50px;
+   
+    
+}
+.btn{
+    padding-left: 0px;
+    margin-top: 5px;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+.btn1{
+    font-size: 13px;
+    color:green;
+}
+
+/* navbar */
+
+
+.img{
+  align-items: center;
+    width: 200px;
+    /* margin-top:10px ; */
+    /* margin-bottom: 10px; */
+    margin-left: 150px;
+  
+   
+}
+.dropbtn {
+    background-color:whitesmoke;
+    color:black;
+    padding: 05px;
+    font-size: 16px;
+    border: none;
+    margin-top: 15px;
+    padding-left: 10px;
+    
+  
+  }
+  
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+
+  }
+  
+
+  /* .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:white;
+    min-width: 220px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+   
+  } */
+  
+  
+  /* .dropdown-content a {
+    color: black;
+    padding: 12px 14px;
+    text-decoration: none;
+    display: block;
+   
+  } */
+  
+ 
+  /* .dropdown-content a:hover {
+      background-color:#3a5dbd;
+       color: white;
+       list-style: none;
+       text-decoration: none;
+    } */
+  
+ 
+  /* .dropdown:hover .dropdown-content{
+      display: block;
+} */
+  .Drop:hover .dropdown-menu{
+    display: block;
+  }
+  
+  /* .dropdown:hover .dropbtn {
+      background-color: #3a5dbd;
+      color: white;
+      border-radius: 50px;
+      
+    } */
+    
+
+
+
+    .Drop:hover {
+      background-color: #3a5dbd;
+      color: white;
+      border-radius: 50px;
+    }
+    .active{
+        background-color: #3a5dbd;
+      border-radius: 50px;
+      color: white;
+    }
+    .dropdown-menu a:hover{
+      background-color:#3a5dbd ;
+    }
+    .navss{
+      margin-left: 100px;
+    }
+
+    /* slider */
+    .imgsize{
+        height:450px;
+    }
+
+  /* Marque text */
+    .para2{
+      background-color:#3173de;
+      margin:12px 10% auto 10%;
+      height: 30px;
+  }
+  .para2text{
+     color: white;
+     
+  }
+
+  /* Introducion */
+
+  .intro{
+    color:blue;
+    padding-top: 50px;
+    /* margin-left:400px ; */
+   display: inline-block;
+   /* align-items: center; */
+   font-family: serif;
+   font-weight: normal;
+    
+}
+.intro2{
+   color: green;
+   padding-top: 50px;
+   display: inline-block;
+   /* margin:0px auto; */
+   font-family: serif;
+   font-weight: normal;
+   /* margin-left:0px ; */
+   /* padding-left: 0px; */
+}
+
+.line1::before{
+  content: "";
+  display: block;
+  width: 50px;
+  height: 2px;
+  background-color: green;
+ }
+
+ .introtext{
+  text-align: justify;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+/* Blue section */
+.blueicons{
+background-color:#0235cf;
+
+}
+.BlueDiv{
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ flex-wrap: wrap;
+ text-align: center;
+ 
+}
+.iconsdisplay{
+ margin-top: 50px;
+padding-left: 10px;
+margin-bottom: 50px;
+
+ 
+
+}
+
+.amount{
+  font-size: 50px;
+  font-family: serif;
+  color: white;
+  /* margin-left: 30px; */
+  
+}
+.edu{
+  font-size: 20px;
+  font-family: serif;
+  color: white;
+  /* margin-left: 20px;  */
+  display: inline-block
+ 
+}
+.month{
+  font-size: 20px;
+  font-family: serif;
+  color:#4ded45;
+  display: inline-block; 
+}
+
+/* WHAT WE ARE DOING? Icons */
+.rowDiv {
+ text-align: center;
+ margin-top: 20px;
+
+ background-color: white;
+ padding-top: 30px;
+ padding-bottom: 30px;
+ padding-left: 50px;
+ padding-right: 50px;
+ margin-left: 5px;
+ margin-right: 10px;
+
+
+ 
+ 
+}
+
+.para3{
+  color:#0235cf;
+  font-family: serif;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 10px;  
+
+}
+
+.rowN{
+  text-align: center;
+}
+.colN{
+  width: 100px;
+  background-color: white;
+  margin-left: 35px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  padding-top: 20px;
+}
+.colN>img{
+  width: 70px;
+  text-align: center;
+}
+
+/* Projects */
+.HeadingProjects{
+  color:#0235cf ;
+  font-family: serif;
+  margin-left: 200px;
+  margin-top: 70px;
+   font-size: 28px;
+   font-weight: bold;
+}
+.mindivicons{
+  
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+  .colI{
+      width: 500px;
+      background-color: whitesmoke;
+      margin-left: 20px;
+      margin-top: 20px;
+      padding-bottom: 10px;
+      display: flex;
+       align-items: center;
+    
+  }
+  .colI>img{
+           width: 25px;
+            margin-top: 10px;
+  }
+  
+  .dinhead{
+      
+       color: #0235cf;
+       margin-right: 200px;
+       margin-left: 20px;
+       margin-top: 25px;
+       font-family: serif;
+       font-weight: bold;
+      
+  }
+  .mindivicons{
+      
+      margin-left: 200px;
+  }
+  .twoIcons{
+    width: 100%;
+    margin-right: 200px;
+    margin-top: 20px;
+    /* margin-bottom:100px; */
+}
+
+
+/* lastImagesGallery */
+.LastImages{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* footer */
+.footerrow{
+  display: flex;
+  flex-wrap: wrap;
+ 
+
+}
+
+.footerP{
+  color: silver;
+  margin-left: 200px;
+margin-top: 5px;
+margin-bottom: 0px;
+ 
+}
+.footerIcons{
+  
+
+  padding-bottom: 100px;
+  padding-right: 20px;
+}
+.paraLast{
+  color: white;
+}
+.paraLast{
+  color: white;
+}
+.LastFooter{
+  display: flex;
+  margin-top: 90px;
+  margin-left: 20px;
+  padding-left: 20px;
+}
+.ConnectLast{
+ margin-left: 0px;
+}
+.LastIcons {
+ background-color:#3173de; 
+ width: 30px;
+ height: 30px;
+ border-radius:30px;
+text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
